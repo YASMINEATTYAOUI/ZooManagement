@@ -12,11 +12,12 @@ public class ZooManagement {
         // Print the message using concatenation
         System.out.println(zoo.zooName + " comporte " + zoo.nbrCages + " cages");
 
+        // the name of the const variable must be in upercase
 
-    Scanner scanner= new Scanner(System.in);
-            ZooManagement Zm1= new ZooManagement();
-    Zm1.nbrCages = scanner.nextInt();
-    Zm1.zooName = scanner.nextLine();
-    System.out.println(zoo.zooName + " comporte " + zoo.nbrCages + " cages");
+        Scanner scanner= new Scanner(System.in);
+        ZooManagement Zm1= new ZooManagement();
+        Zm1.nbrCages = scanner.nextInt();
+        Zm1.zooName = scanner.nextLine();
+        System.out.println(zoo.zooName + " comporte " + zoo.nbrCages + " cages");
     }
 }
